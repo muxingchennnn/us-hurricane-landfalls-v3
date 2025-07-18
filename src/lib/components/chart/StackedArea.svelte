@@ -8,6 +8,7 @@
 
 <g class="area-chart" transition:fade>
 	{#each stackedData as area, i}
+		{console.log(area)}
 		<g class="area-path">
 			<path d={areaGenerator(area)} fill={stackColor[i]} />
 		</g>

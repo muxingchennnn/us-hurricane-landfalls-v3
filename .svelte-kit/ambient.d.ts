@@ -27,7 +27,6 @@
  */
 declare module '$env/static/private' {
 	export const NVM_INC: string;
-	export const MANPATH: string;
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
@@ -35,7 +34,6 @@ declare module '$env/static/private' {
 	export const NVM_CD_FLAGS: string;
 	export const TERM: string;
 	export const SHELL: string;
-	export const npm_config_metrics_registry: string;
 	export const HOMEBREW_REPOSITORY: string;
 	export const TMPDIR: string;
 	export const npm_config_global_prefix: string;
@@ -56,6 +54,7 @@ declare module '$env/static/private' {
 	export const npm_config_globalconfig: string;
 	export const CONDA_EXE: string;
 	export const SSH_AUTH_SOCK: string;
+	export const VSCODE_PROFILE_INITIALIZED: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
 	export const PAGER: string;
@@ -65,6 +64,7 @@ declare module '$env/static/private' {
 	export const npm_package_json: string;
 	export const npm_config_engine_strict: string;
 	export const _: string;
+	export const LaunchInstanceID: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_init_module: string;
 	export const USER_ZDOTDIR: string;
@@ -79,6 +79,7 @@ declare module '$env/static/private' {
 	export const npm_package_name: string;
 	export const P9K_TTY: string;
 	export const LANG: string;
+	export const npm_config_npm_version: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const XPC_FLAGS: string;
 	export const npm_config_node_gyp: string;
@@ -104,6 +105,7 @@ declare module '$env/static/private' {
 	export const INFOPATH: string;
 	export const HOMEBREW_CELLAR: string;
 	export const _P9K_SSH_TTY: string;
+	export const SECURITYSESSIONID: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
@@ -140,7 +142,6 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		NVM_INC: string;
-		MANPATH: string;
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
@@ -148,7 +149,6 @@ declare module '$env/dynamic/private' {
 		NVM_CD_FLAGS: string;
 		TERM: string;
 		SHELL: string;
-		npm_config_metrics_registry: string;
 		HOMEBREW_REPOSITORY: string;
 		TMPDIR: string;
 		npm_config_global_prefix: string;
@@ -169,6 +169,7 @@ declare module '$env/dynamic/private' {
 		npm_config_globalconfig: string;
 		CONDA_EXE: string;
 		SSH_AUTH_SOCK: string;
+		VSCODE_PROFILE_INITIALIZED: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
 		PAGER: string;
@@ -178,6 +179,7 @@ declare module '$env/dynamic/private' {
 		npm_package_json: string;
 		npm_config_engine_strict: string;
 		_: string;
+		LaunchInstanceID: string;
 		npm_config_userconfig: string;
 		npm_config_init_module: string;
 		USER_ZDOTDIR: string;
@@ -192,6 +194,7 @@ declare module '$env/dynamic/private' {
 		npm_package_name: string;
 		P9K_TTY: string;
 		LANG: string;
+		npm_config_npm_version: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		XPC_FLAGS: string;
 		npm_config_node_gyp: string;
@@ -217,6 +220,7 @@ declare module '$env/dynamic/private' {
 		INFOPATH: string;
 		HOMEBREW_CELLAR: string;
 		_P9K_SSH_TTY: string;
+		SECURITYSESSIONID: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;

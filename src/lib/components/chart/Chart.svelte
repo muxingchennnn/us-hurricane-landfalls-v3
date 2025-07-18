@@ -12,6 +12,8 @@
 
 	export let aggregateData;
 
+	console.log(aggregateData);
+
 	const margin = { top: 40, right: 80, bottom: 0, left: 80 };
 
 	// let ctnWidth = window.chartWidth
