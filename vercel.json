@@ -1,6 +1,4 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "build",
-  "framework": "svelte",
-  "installCommand": "npm install"
+  "framework": "svelte"
 }
