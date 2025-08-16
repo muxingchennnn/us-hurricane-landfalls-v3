@@ -1,4 +1,15 @@
 {
+  "framework": null,
   "buildCommand": "npm run build",
-  "framework": "svelte"
+  "outputDirectory": ".svelte-kit",
+  "functions": {
+    "src/routes/**/*.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "build": {
+    "env": {
+      "NODE_VERSION": "20.18.0"
+    }
+  }
 }
